@@ -1,0 +1,11 @@
+[KgDifficulty]
+Level=Hard
+
+[KgTheme]
+Theme=themes/default.desktop
+
+[MainWindow]
+Height 768=768
+State=AAAA/wAAAAD9AAAAAAAABVYAAAKyAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=1366

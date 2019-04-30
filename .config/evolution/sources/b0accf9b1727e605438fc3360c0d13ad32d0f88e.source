@@ -1,0 +1,45 @@
+[Data Source]
+DisplayName=didiksupriadi41@gmail.com
+Enabled=true
+Parent=082d9b63fef1fb34b58330dbce373b8408f74b40
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://0fe5799e52f9181457e7c33075617daea2a66db2/%5bGmail%5d/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+StartBottom=inconsistent
+TopSignature=inconsistent
+
+[Mail Identity]
+Address=didiksupriadi41@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=fb64b44ef7c8756c85a3721c4841bfd42565cc8a
+RepliesToOriginFolder=false
+UseSentFolder=true
+
+[Pretty Good Privacy (OpenPGP)]
+AlwaysTrust=false
+EncryptToSelf=true
+KeyId=
+SigningAlgorithm=
+SignByDefault=false
+EncryptByDefault=false
+PreferInline=false
+
+[Secure MIME (S/MIME)]
+EncryptionCertificate=
+EncryptByDefault=false
+EncryptToSelf=true
+SigningAlgorithm=
+SigningCertificate=
+SignByDefault=false

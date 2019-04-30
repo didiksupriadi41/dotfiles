@@ -1,0 +1,16 @@
+00:00:06.016238 VirtualBox GUI VM Selector Window 6.0.4_RPMFusion r128164 linux.amd64 (Mar 22 2019 03:59:23) release log
+00:00:06.016243 Log opened 2019-04-11T00:29:40.347374000Z
+00:00:06.016245 Build Type: release
+00:00:06.016257 OS Product: Linux
+00:00:06.016260 OS Release: 5.0.6-200.fc29.x86_64
+00:00:06.016263 OS Version: #1 SMP Wed Apr 3 15:09:51 UTC 2019
+00:00:06.016357 DMI Product Name: X550ZE
+00:00:06.016390 DMI Product Version: 1.0
+00:00:06.016660 Host RAM: 3387MB (3.3GB) total, 2143MB (2.0GB) available
+00:00:06.016673 Executable: /usr/lib64/virtualbox/VirtualBox
+00:00:06.016674 Process ID: 8609
+00:00:06.016676 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:06.016755 Qt version: 5.11.3
+00:00:06.158009 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:08.460018 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x27 x 1366x741
+00:00:08.471966 GUI: UIMediumEnumerator: Medium-enumeration finished!
