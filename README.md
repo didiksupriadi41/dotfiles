@@ -1,4 +1,5 @@
-# dotfiles
+# :wrench: dotfiles
+_A snapshot of my dot files. It's really intended for my own use, you would probably be better off reading the individual dot files and copying the bits that interest you._
 ### configuration
 + gtk-2.0
 + gtk-3.0
