@@ -8,13 +8,13 @@
 
 # class                 border  backgr. text    indicator
 #client.focused          #4c7899 #000000 #ffffff #2e9ef4
-client.focused        #333333 #220022 #888888 #292d2e
-client.focused_inactive #333333 #5f676a #ffffff #484e50
-client.unfocused          #4c7899 #000000 #ffffff #2e9ef4
+client.focused          #333333 #ffffff #888888 #292d2e
+#client.focused_inactive #333333 #5f676a #ffffff #484e50
+client.unfocused        #4c7899 #000000 #ffffff #2e9ef4
 #client.unfocused        #333333 #220022 #888888 #292d2e
-client.urgent           #2f343a #900000 #ffffff #900000
-client.placeholder      #000000 #0c0c0c #ffffff #000000
-client.background       #ffffff
+#client.urgent           #2f343a #900000 #ffffff #900000
+#client.placeholder      #000000 #0c0c0c #ffffff #000000
+#client.background       #ffffff
 
 # window behavior
 popup_during_fullscreen leave_fullscreen
@@ -22,7 +22,10 @@ default_border pixel 1
 
 # To use Windows Key as modifier. RECOMMENDED to prevents conflicts with application-defined shortcuts.
 set $mod Mod4 
-
+set $left h
+set $down j
+set $up k
+set $right l
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1:Editor "
@@ -120,24 +123,24 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+b split h 
 
 # move focused window
-bindsym $mod+Shift+h move left 
+bindsym $mod+Shift+$left move left 
 # change focus
-bindsym $mod+h focus left 
+bindsym $mod+$left focus left 
 
 # move focused window
-bindsym $mod+Shift+j move down 
+bindsym $mod+Shift+$down move down 
 # change focus
-bindsym $mod+j focus down 
+bindsym $mod+$down focus down 
 
 # move focused window
-bindsym $mod+Shift+k move up 
+bindsym $mod+Shift+$up move up 
 # change focus
-bindsym $mod+k focus up 
+bindsym $mod+$up focus up 
 
 # move focused window
-bindsym $mod+Shift+l move right 
+bindsym $mod+Shift+$right move right 
 # change focus
-bindsym $mod+l focus right 
+bindsym $mod+$right focus right 
 
 # reload the configuration file
 bindsym $mod+Shift+c reload 
@@ -194,10 +197,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym $left resize shrink width 10 px or 10 ppt
+        bindsym $down resize grow height 10 px or 10 ppt
+        bindsym $up resize shrink height 10 px or 10 ppt
+        bindsym $right resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt

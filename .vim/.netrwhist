@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/didiksupriadi41/.config/i3status'
 let g:netrw_dirhist_2='/home/didiksupriadi41/.config'
 let g:netrw_dirhist_3='/home/didiksupriadi41/.config/lxterminal'
 let g:netrw_dirhist_4='/home/didiksupriadi41/.gnupg'
+let g:netrw_dirhist_5='/home/didiksupriadi41/Mail'
+let g:netrw_dirhist_6='/home/didiksupriadi41/Mail/imaps:didiksupriadi41@gmail.com@imap.gmail.com:993'
+let g:netrw_dirhist_7='/home/didiksupriadi41/Mail/imaps:didiksupriadi41@gmail.com@imap.gmail.com:993/INBOX'
