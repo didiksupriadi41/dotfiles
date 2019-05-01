@@ -1,6 +1,0 @@
-2019/04/28-01:32:53.826 8ef Reusing MANIFEST /home/didiksupriadi41/.config/chromium/Default/IndexedDB/chrome-extension_ophjlpahpchlmihnnnihgmmeilfjmjjc_0.indexeddb.leveldb/MANIFEST-000001
-2019/04/28-01:32:53.827 8ef Recovering log #36
-2019/04/28-01:32:54.048 8ef Reusing old log /home/didiksupriadi41/.config/chromium/Default/IndexedDB/chrome-extension_ophjlpahpchlmihnnnihgmmeilfjmjjc_0.indexeddb.leveldb/000036.log 
-2019/04/28-01:34:19.296 98d Level-0 table #45: started
-2019/04/28-01:34:19.435 98d Level-0 table #45: 2208183 bytes OK
-2019/04/28-01:34:19.565 98d Delete type=0 #36

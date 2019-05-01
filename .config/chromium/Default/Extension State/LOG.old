@@ -1,6 +1,0 @@
-2019/04/30-23:57:19.922 1f01 Log #3: dropping 7214 bytes; Corruption: missing start of fragmented record(2)
-2019/04/30-23:57:20.182 1f01 Log #3: 283 ops saved to Table #4 OK
-2019/04/30-23:57:20.182 1f01 Archiving /home/didiksupriadi41/.config/chromium/Default/Extension State/000003.log: OK
-2019/04/30-23:57:20.187 1f01 Table #4: 283 entries OK
-2019/04/30-23:57:20.188 1f01 Archiving /home/didiksupriadi41/.config/chromium/Default/Extension State/MANIFEST-000001: OK
-2019/04/30-23:57:20.327 1f01 **** Repaired leveldb /home/didiksupriadi41/.config/chromium/Default/Extension State; recovered 1 files; 2285882 bytes. Some data may have been lost. ****
