@@ -183,6 +183,7 @@ assign [class="Rednotebook"] $ws9
 assign [class="Soffice"] $ws8
 assign [class="libreoffice-impress"] $ws8
 assign [class="Eclipse"] $ws1
+assign [class="Java"] $ws1
 
 
 # resize window (you can also use the mouse for that)
