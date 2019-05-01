@@ -1,1 +1,12 @@
 # dotfiles
+### configuration
++ gtk-2.0
++ gtk-3.0
++ i3
++ i3status
++ lxterminal
++ sakura
++ sway
++ termit
++ vim
++ Xresources
