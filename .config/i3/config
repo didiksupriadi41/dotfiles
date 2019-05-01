@@ -247,3 +247,6 @@ exec_always compton -f
 exec telegram
 #exec LINE
 exec rednotebook
+exec lxterminal --working-directory="/home/didiksupriadi41/"
+exec lxterminal --working-directory="/home/didiksupriadi41/oca/"
+#exec lxterminal --working-directory="/home/didiksupriadi41/jtcr10/"
