@@ -1,6 +1,6 @@
 # :wrench: dotfiles
 _A snapshot of my dot files. It's really intended for my own use, you would probably be better off reading the individual dot files and copying the bits that interest you._
-### configuration
+### Configuration
 + gtk-2.0
 + gtk-3.0
 + i3
@@ -11,3 +11,7 @@ _A snapshot of my dot files. It's really intended for my own use, you would prob
 + termit
 + vim
 + Xresources
+
+### Screenshots
++ [**Vim**](https://www.vim.org/) + [**Fzf**](https://github.com/junegunn/fzf) + [**Top**](http://man7.org/linux/man-pages/man1/top.1.html)
+![screenshot-01](https://i.imgur.com/oTHhfbR.png)
