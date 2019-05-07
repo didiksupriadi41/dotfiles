@@ -14,4 +14,4 @@ _A snapshot of my dot files. It's really intended for my own use, you would prob
 
 ### Screenshots
 + [**Vim**](https://www.vim.org/) + [**Alsamixer**](https://www.alsa-project.org/) + [**Top**](http://man7.org/linux/man-pages/man1/top.1.html)
-![screenshot-01](https://imgur.com/ht8B7w2)
+![screenshot](https://i.imgur.com/ht8B7w2.png)
