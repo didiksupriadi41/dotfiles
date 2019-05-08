@@ -379,7 +379,7 @@
    colors {
     set $var #052000
     background $var
-    statusline #AAAAAA
+    statusline #BBBBBB
     separator #666666
 
     focused_workspace  $var #000000 #4E9A06
