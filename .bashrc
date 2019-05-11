@@ -8,7 +8,7 @@ fi
 # User specific environment
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
 then
-    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+	PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
 export PATH
 
@@ -16,5 +16,6 @@ export PATH
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
+
 # Required by promptline.vim
-. ~/.promptline.sh
+	. ~/.promptline.sh
