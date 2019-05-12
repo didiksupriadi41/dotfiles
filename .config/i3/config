@@ -267,15 +267,17 @@
 	bar {
 		strip_workspace_numbers yes
 		colors {
-			set $VAR #052000
-			background $VAR
+			set $VAR1 #052000
+			set $VAR2 #4E9A06
+			set $VAR3 #000000
+			background $VAR1
 			statusline #BBBBBB
 			separator #666666
-			focused_workspace  $VAR #000000 #4E9A06
-			active_workspace   #333333 #5f676a #4E9A06
-			inactive_workspace #000000 $VAR #4E9A06
-			urgent_workspace   #000000 #4E9A06 $VAR
-			binding_mode       $VAR #4E9A06 $VAR
+			focused_workspace  $VAR1 $VAR3 $VAR2
+			active_workspace   #333333 #5f676a $VAR2
+			inactive_workspace $VAR3 $VAR1 $VAR2
+			urgent_workspace   $VAR3 $VAR2 $VAR1
+			binding_mode       $VAR1 $VAR2 $VAR1
 		}
 		status_command i3status
 		position top

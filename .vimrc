@@ -155,6 +155,7 @@
   set t_Co=256
   set shiftwidth=4
   set tabstop=4
+  set tw=78
 
 " Switch syntax highlighting on when the terminal has colors or when using the
 " GUI (which always has colors).
