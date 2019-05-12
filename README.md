@@ -5,7 +5,7 @@ _A snapshot of my dot files. It's really intended for my own use, you would prob
 + [**Vim**](https://www.vim.org/) + [**Alsamixer**](https://www.alsa-project.org/) + [**Top**](http://man7.org/linux/man-pages/man1/top.1.html)
 ![screenshot](https://i.imgur.com/ht8B7w2.png)
 
-### Vim plugins
+### Big Thanks
 + [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
 + [edkolev/promptline.vim](https://github.com/edkolev/promptline.vim)
 + [majutsushi/tagbar](https://github.com/majutsushi/tagbar)
