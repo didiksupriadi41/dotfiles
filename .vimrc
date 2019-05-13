@@ -146,6 +146,7 @@
   let g:airline_theme='fairyfloss'
   let g:airline_powerline_fonts = 1
   let g:airline#extensions#tabline#enabled = 1
+  let g:airline#extensions#ycm#enabled = 1
 
 " Specific customization.
   set number
