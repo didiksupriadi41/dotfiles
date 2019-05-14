@@ -230,7 +230,8 @@
 # assign specific workspace
 	assign [class="Eclipse"] $WS1
 	assign [class="Java"] $WS1
-	assign [class="Firefox"] $WS2
+	#assign [class="Firefox"] $WS2
+	assign [instance="Navigator"] $WS2
 	assign [instance="chromium-browser"] $WS2
 	#assign [class="Soffice"] $WS8
 	assign [class="libreoffice-impress"] $WS8
