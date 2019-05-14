@@ -43,6 +43,7 @@
 # Set background image location
 # =============================
 	set $BACKGROUD_IMAGE ~/Pictures/rough-horn-2146181_1920.jpg
+	#set $BACKGROUD_IMAGE /usr/share/backgrounds/f30/default/tv-wide/f30.png
 
 # Set bar background color
 # ========================
@@ -229,14 +230,14 @@
 # assign specific workspace
 	assign [class="Eclipse"] $WS1
 	assign [class="Java"] $WS1
-	assign [class="Homebank"] $WS1
 	assign [class="Firefox"] $WS2
 	assign [instance="chromium-browser"] $WS2
-	assign [class="Soffice"] $WS8
+	#assign [class="Soffice"] $WS8
 	assign [class="libreoffice-impress"] $WS8
-	assign [class="Rednotebook"] $WS9
+	#assign [class="Rednotebook"] $WS9
 	assign [instance="ophjlpahpchlmihnnnihgmmeilfjmjjc__index.html"] $WS10
 	assign [class="TelegramDesktop"] $WS10
+	assign [class="Hexchat"] $WS10
 
 # resize window (you can also use the mouse for that)
 # ===================================================
@@ -303,5 +304,6 @@
 # Startup program
 # ===============
 	exec telegram
+	exec hexchat
 	#exec LINE
 	#exec rednotebook
