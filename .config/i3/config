@@ -5,6 +5,7 @@
 # ===============
 	popup_during_fullscreen leave_fullscreen
 	default_border none
+	default_floating_border none
 
 # simple retro themes.
 # ====================
@@ -31,7 +32,7 @@
 # =================================================================
 	set $WS1 "1:Editor "
 	set $WS2 "2:Browser "
-	set $WS3 "3:Scratch"
+	set $WS3 "3:IRC"
 	set $WS4 "4"
 	set $WS5 "5"
 	set $WS6 "6"
@@ -109,7 +110,9 @@
 
 # exit i3 (logs you out of your X session)
 # ========================================
-# bindsym $MOD+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# bindsym $MOD+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit \
+# shortcut. Do you really want to exit i3? This will end your X session.' -B \
+# 'Yes, exit i3' 'i3-msg exit'"
 	bindsym $MOD+Shift+e exec i3-msg exit
 
 # change container layout (toggle split)
@@ -126,8 +129,10 @@
 
 # toggle cpu_temperature between hwmon3 and hwmon4
 # ================================================
-	bindsym $MOD+Shift+t exec sed -i 's/hwmon4/hwmon3/g' ~/.config/i3status/config
-	bindsym $MOD+Shift+y exec sed -i 's/hwmon3/hwmon4/g' ~/.config/i3status/config
+	bindsym $MOD+Shift+t exec sed -i 's/hwmon4/hwmon3/g' \
+~/.config/i3status/config
+	bindsym $MOD+Shift+y exec sed -i 's/hwmon3/hwmon4/g' \
+~/.config/i3status/config
 
 # focus the parent container
 # ==========================
@@ -139,7 +144,8 @@
 
 # start dmenu (a program launcher)
 # ================================
-	bindsym $MOD+d exec dmenu_run -fn "Fira Mono-10" -i -nb "#071107" -sb "#052000" -nf "#4E9A06"
+	bindsym $MOD+d exec dmenu_run -fn "Fira Mono-10" -i -nb "#071107" -sb \
+"#052000" -nf "#4E9A06"
 
 # enter fullscreen mode for the focused container
 # ===============================================
@@ -230,15 +236,12 @@
 # assign specific workspace
 	assign [class="Eclipse"] $WS1
 	assign [class="Java"] $WS1
-	#assign [class="Firefox"] $WS2
 	assign [instance="Navigator"] $WS2
 	assign [instance="chromium-browser"] $WS2
-	#assign [class="Soffice"] $WS8
+	assign [class="Hexchat"] $WS3
 	assign [class="libreoffice-impress"] $WS8
-	#assign [class="Rednotebook"] $WS9
 	assign [instance="ophjlpahpchlmihnnnihgmmeilfjmjjc__index.html"] $WS10
 	assign [class="TelegramDesktop"] $WS10
-	assign [class="Hexchat"] $WS10
 
 # resize window (you can also use the mouse for that)
 # ===================================================
@@ -296,7 +299,8 @@
 
 # default monitor
 # ===============
-	exec xrandr --output VGA-0 --off --output eDP --mode 1366x768 --pos 0x0 --rotate normal --output HDMI-0 --off
+	exec xrandr --output VGA-0 --off --output eDP --mode 1366x768 --pos 0x0 \
+--rotate normal --output HDMI-0 --off
 
 # fading effect
 # =============
@@ -308,3 +312,4 @@
 	exec hexchat
 	#exec LINE
 	#exec rednotebook
+	exec lxpolkit

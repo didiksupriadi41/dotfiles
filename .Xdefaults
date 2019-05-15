@@ -41,11 +41,12 @@ URxvt.keysym.C-0xff56: \033[6;5~
 URxvt.keysym.Home: \033[H
 URxvt.keysym.End: \033[F
 
-! Scale fonts
-! ===========
+! Font-size
+! =========
 URxvt.keysym.C-S-plus: font-size:increase
 URxvt.keysym.C-S-underscore: font-size:decrease
 URxvt.keysym.C-0: font-size:reset
+URxvt.keysym.C-slash: font-size:show
 
 ! Color
 ! =====
