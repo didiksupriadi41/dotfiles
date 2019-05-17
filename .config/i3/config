@@ -238,7 +238,7 @@
 	assign [class="Java"] $WS1
 	assign [instance="Navigator"] $WS2
 	assign [instance="chromium-browser"] $WS2
-	assign [class="Hexchat"] $WS3
+	assign [instance="hexchat"] $WS3
 	assign [class="libreoffice-impress"] $WS8
 	assign [instance="ophjlpahpchlmihnnnihgmmeilfjmjjc__index.html"] $WS10
 	assign [class="TelegramDesktop"] $WS10
