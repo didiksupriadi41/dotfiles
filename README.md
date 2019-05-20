@@ -7,8 +7,8 @@ _A snapshot of my dot files. It's really intended for my own use, you would prob
 * [**LINE Chrome Extension**](https://chrome.google.com/webstore/detail/line/ophjlpahpchlmihnnnihgmmeilfjmjjc)
 ![screenshot](https://i.imgur.com/5mJMKTm.png)
 
-### Big Thanks
 ---
+## Big Thanks
 * [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree)
 * [edkolev/promptline.vim](https://github.com/edkolev/promptline.vim)
 * [majutsushi/tagbar](https://github.com/majutsushi/tagbar)
