@@ -40,6 +40,7 @@
   Plugin 'VundleVim/Vundle.vim'
   Plugin 'Valloric/YouCompleteMe'
   Plugin 'junegunn/fzf'
+  Plugin 'tpope/vim-commentary'
   call vundle#end()            " required
   filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:

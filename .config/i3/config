@@ -6,6 +6,8 @@
 	popup_during_fullscreen leave_fullscreen
 	default_border none
 	default_floating_border none
+	gaps inner 8
+	# smart_gaps on
 
 # simple retro themes.
 # ====================

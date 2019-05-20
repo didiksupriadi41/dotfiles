@@ -18,4 +18,4 @@ _A snapshot of my dot files. It's really intended for my own use, you would prob
 * [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim)
 * [Valloric/YouCompleteMe](https://github.com/Valloric/YouCompleteMe)
 * [junegunn/fzf](https://github.com/junegunn/fzf)
-* [vim-syntastic/syntastic](https://github.com/vim-syntastic/syntastic)
+* [tpope/vim-commentary](https://github.com/tpope/vim-commentary)
