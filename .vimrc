@@ -1,7 +1,7 @@
 " When started as "evim", evim.vim will already have done these settings.
-  if v:progname =~? "evim"
-    finish
-  endif
+	if v:progname =~? "evim"
+		finish
+	endif
 
 " Bail out if something that ran earlier, e.g. a system wide vimrc, does not
 " want Vim to use these default values.
@@ -55,18 +55,18 @@
   set backspace=indent,eol,start
 
 " keep 200 lines of command line history
-  set history=200		
+  set history=200
 " show the cursor position all the time
-  set ruler		
+  set ruler
 " display incomplete commands
-  set showcmd		
+  set showcmd
 " display completion matches in a status line
-  set wildmenu		
+  set wildmenu
 
 " time out for key codes
-  set ttimeout		
+  set ttimeout
 " wait up to 100ms after Esc for special key
-  set ttimeoutlen=100	
+  set ttimeoutlen=100
 
 " Show @@@ in the last line if it is truncated.
   set display=truncate
@@ -154,8 +154,8 @@
   set laststatus=2
   set noshowmode
   set t_Co=256
-  set shiftwidth=4
-  set tabstop=4
+  set shiftwidth=2
+  set tabstop=2
 
 " Switch syntax highlighting on when the terminal has colors or when using the
 " GUI (which always has colors).

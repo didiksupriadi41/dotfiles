@@ -6,7 +6,7 @@
 	popup_during_fullscreen leave_fullscreen
 	default_border none
 	default_floating_border none
-	gaps inner 8
+	# gaps inner 8
 	# smart_gaps on
 
 # simple retro themes.
@@ -46,7 +46,7 @@
 # Set background image location
 # =============================
 	set $BACKGROUD_IMAGE ~/Pictures/rough-horn-2146181_1920.jpg
-	#set $BACKGROUD_IMAGE /usr/share/backgrounds/f30/default/tv-wide/f30.png
+	# set $BACKGROUD_IMAGE /usr/share/backgrounds/f30/default/tv-wide/f30.png
 
 # Set bar background color
 # ========================
@@ -67,7 +67,8 @@
 # right-to-left text rendering and scalability on retina/hidpi
 # displays (thanks to pango).
 # ===========================
-# font pango:DejaVu Sans Mono 8
+	# font pango:DejaVu Sans Mono 8
+
 # Use Mouse+$MOD to drag floating windows to their wanted position
 # ================================================================
 	floating_modifier $MOD
@@ -112,9 +113,9 @@
 
 # exit i3 (logs you out of your X session)
 # ========================================
-# bindsym $MOD+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit \
-# shortcut. Do you really want to exit i3? This will end your X session.' -B \
-# 'Yes, exit i3' 'i3-msg exit'"
+	# bindsym $MOD+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit \
+		# shortcut. Do you really want to exit i3? This will end your X session.' -B \
+		# 'Yes, exit i3' 'i3-msg exit'"
 	bindsym $MOD+Shift+e exec i3-msg exit
 
 # change container layout (toggle split)
@@ -132,9 +133,9 @@
 # toggle cpu_temperature between hwmon3 and hwmon4
 # ================================================
 	bindsym $MOD+Shift+t exec sed -i 's/hwmon4/hwmon3/g' \
-~/.config/i3status/config
+		~/.config/i3status/config
 	bindsym $MOD+Shift+y exec sed -i 's/hwmon3/hwmon4/g' \
-~/.config/i3status/config
+		~/.config/i3status/config
 
 # focus the parent container
 # ==========================
@@ -147,7 +148,7 @@
 # start dmenu (a program launcher)
 # ================================
 	bindsym $MOD+d exec dmenu_run -fn "Fira Mono-10" -i -nb "#071107" -sb \
-"#052000" -nf "#4E9A06"
+		"#052000" -nf "#4E9A06"
 
 # enter fullscreen mode for the focused container
 # ===============================================
@@ -236,6 +237,7 @@
 	# bindsym $MOD+d focus child
 
 # assign specific workspace
+# =========================
 	assign [class="Eclipse"] $WS1
 	assign [class="Java"] $WS1
 	assign [instance="Navigator"] $WS2
@@ -249,7 +251,7 @@
 # ===================================================
 	mode "R" {
 		# These bindings trigger as soon as you enter the resize mode
-		# ============================================
+		# ===========================================================
 		bindsym $LEFT resize shrink width 10 px or 10 ppt
 		bindsym $DOWN resize grow height 10 px or 10 ppt
 		bindsym $UP resize shrink height 10 px or 10 ppt
@@ -302,7 +304,7 @@
 # default monitor
 # ===============
 	exec xrandr --output VGA-0 --off --output eDP --mode 1366x768 --pos 0x0 \
---rotate normal --output HDMI-0 --off
+		--rotate normal --output HDMI-0 --off
 
 # fading effect
 # =============
@@ -312,6 +314,6 @@
 # ===============
 	exec telegram
 	exec hexchat
-	#exec LINE
-	#exec rednotebook
+	exec LINE
+	# exec rednotebook
 	exec lxpolkit
