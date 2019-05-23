@@ -34,13 +34,13 @@
 # =================================================================
 	set $WS1 "1:Editor "
 	set $WS2 "2:Browser "
-	set $WS3 "3:IRC"
+	set $WS3 "3"
 	set $WS4 "4"
 	set $WS5 "5"
 	set $WS6 "6"
 	set $WS7 "7"
-	set $WS8 "8:Presentation"
-	set $WS9 "9:Journal"
+	set $WS8 "8"
+	set $WS9 "9:Presentation"
 	set $WS10 "10:Social "
 
 # Set background image location
@@ -242,8 +242,7 @@
 	assign [class="Java"] $WS1
 	assign [instance="Navigator"] $WS2
 	assign [instance="chromium-browser"] $WS2
-	assign [instance="hexchat"] $WS3
-	assign [class="libreoffice-impress"] $WS8
+	assign [instance="hexchat"] $WS10
 	assign [instance="ophjlpahpchlmihnnnihgmmeilfjmjjc__index.html"] $WS10
 	assign [class="TelegramDesktop"] $WS10
 
@@ -315,5 +314,4 @@
 	exec telegram
 	exec hexchat
 	exec LINE
-	# exec rednotebook
 	exec lxpolkit
