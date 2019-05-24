@@ -149,8 +149,8 @@
   let g:airline#extensions#ycm#enabled = 1
 
 " Specific customization.
-  set number
-  set relativenumber
+  " set number
+  " set relativenumber
   set laststatus=2
   set noshowmode
   set t_Co=256
