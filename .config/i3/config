@@ -34,7 +34,7 @@
 # =================================================================
 	set $WS1 "1:Editor "
 	set $WS2 "2:Browser "
-	set $WS3 "3"
+	set $WS3 "3:Develop"
 	set $WS4 "4"
 	set $WS5 "5"
 	set $WS6 "6"
@@ -239,9 +239,9 @@
 # assign specific workspace
 # =========================
 	assign [class="Eclipse"] $WS1
-	assign [class="Java"] $WS1
 	assign [instance="Navigator"] $WS2
 	assign [instance="chromium-browser"] $WS2
+	assign [class="Red Hat CodeReady Studio"] $WS3
 	assign [instance="hexchat"] $WS10
 	assign [instance="ophjlpahpchlmihnnnihgmmeilfjmjjc__index.html"] $WS10
 	assign [class="TelegramDesktop"] $WS10
@@ -311,6 +311,6 @@
 
 # Startup program
 # ===============
-	exec telegram
+	exec org.telegram.desktop
 	exec LINE
 	exec lxpolkit
