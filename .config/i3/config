@@ -242,6 +242,7 @@
 	assign [instance="Navigator"] $WS2
 	assign [instance="chromium-browser"] $WS2
 	assign [class="Red Hat CodeReady Studio"] $WS3
+	assign [class="Java"] $WS3
 	assign [instance="hexchat"] $WS10
 	assign [instance="ophjlpahpchlmihnnnihgmmeilfjmjjc__index.html"] $WS10
 	assign [class="TelegramDesktop"] $WS10
@@ -294,7 +295,7 @@
 
 # set desktop background
 # ======================
-	exec_always feh --bg-max $BACKGROUD_IMAGE
+	exec feh --bg-max $BACKGROUD_IMAGE
 
 # i3lock
 # ======
@@ -302,15 +303,15 @@
 
 # default monitor
 # ===============
-	exec xrandr --output VGA-0 --off --output eDP --mode 1366x768 --pos 0x0 \
-		--rotate normal --output HDMI-0 --off
+	# exec xrandr --output VGA-0 --off --output eDP --mode 1366x768 --pos 0x0 \
+	# 	--rotate normal --output HDMI-0 --off
+
+# Startup program
+# ===============
+	exec lxpolkit
+	exec org.telegram.desktop
+	exec LINE
 
 # fading effect
 # =============
 	exec compton
-
-# Startup program
-# ===============
-	exec org.telegram.desktop
-	exec LINE
-	exec lxpolkit
