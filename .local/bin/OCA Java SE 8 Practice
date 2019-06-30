@@ -1,0 +1,2 @@
+#!/bin/sh
+/bin/wine '/home/didiksupriadi41/.wine/drive_c/Program Files (x86)/OCA Java SE 8 Practice/OCA Java SE 8 Practice.exe'
