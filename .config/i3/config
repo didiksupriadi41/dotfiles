@@ -147,8 +147,10 @@
 
 # start dmenu (a program launcher)
 # ================================
-	bindsym $MOD+d exec dmenu_run -fn "Fira Mono-10" -i -nb "#071107" -sb \
-		"#052000" -nf "#4E9A06"
+	# bindsym $MOD+d exec dmenu_run -fn "Fira Mono-10" -i -nb "#071107" -sb \
+	# 	"#052000" -nf "#4E9A06"
+	bindsym $MOD+d exec dmenu_run -fn "Fira Mono-10" -i -nb "#000000" -sb \
+		"#BBBBBB" -nf "#BBBBBB" -sf "#000000"
 
 # enter fullscreen mode for the focused container
 # ===============================================
