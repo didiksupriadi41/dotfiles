@@ -276,14 +276,19 @@
 	bar {
 		strip_workspace_numbers yes
 		colors {
-			set $VAR1 #052000
-			set $VAR2 #4E9A06
+			# set $VAR1 #052000
+			set $VAR1 #000000
+			# set $VAR2 #4E9A06
+			set $VAR2 #BBBBBB
 			set $VAR3 #000000
-			background $VAR1
+			# background $VAR1
+			background $VAR3
 			statusline #BBBBBB
 			separator #666666
-			focused_workspace  $VAR1 $VAR3 $VAR2
+			# focused_workspace  $VAR1 $VAR3 $VAR2
+			focused_workspace  $VAR3 $VAR2 $VAR1
 			active_workspace   #333333 #5f676a $VAR2
+			# inactive_workspace $VAR3 $VAR1 $VAR2
 			inactive_workspace $VAR3 $VAR1 $VAR2
 			urgent_workspace   $VAR3 $VAR2 $VAR1
 			binding_mode       $VAR1 $VAR2 $VAR1
@@ -310,7 +315,7 @@
 # ===============
 	exec lxpolkit
 	exec org.telegram.desktop
-	exec LINE
+	# exec LINE
 
 # fading effect
 # =============
